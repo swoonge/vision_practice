@@ -2,4 +2,6 @@
 *.pyc
 
 # dataset not save directly, just save file which download dataset file
-# datasets/
+assignment1/cs231n/datasets/
+assignment2/cs231n/datasets/
+assignment3/cs231n/datasets/
