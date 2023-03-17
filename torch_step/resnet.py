@@ -301,7 +301,7 @@ def _resnet(
         model.load_state_dict(weights.get_state_dict(progress=progress))
 
     return model
-
+    # 결국 이 아래의 함수들은 모듈화를 위한 함수들인 것. 최종 리턴은 ResNet 객체
 
 _COMMON_META = {
     "min_size": (1, 1),
